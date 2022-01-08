@@ -76,7 +76,7 @@ describe('Employee', () => {
 
     it('should call the role function', () => {
 
-        const roleCall = 'Software Engineer'
+        const roleCall = 'Employee'
         const jobPosition = new Employee('Jonathan', 1234567, 'jonathan@email.com', roleCall)
         expect(jobPosition.getRole()).toBe(roleCall)
 
