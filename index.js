@@ -6,8 +6,8 @@ const Engineer = require('./lib/Engineer')
 const { pageTemplate } = require('./src/template')
 var answers = []
 
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+// const OUTPUT_DIR = path.resolve(__dirname, "output");
+// const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const questions = [
     {
